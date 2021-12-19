@@ -1,15 +1,8 @@
-# Mozzarella Ashbadger — Upgrade your browsing with tabs
+# LineBrowser — Fast and Simple lightweight Browsing
 
-Mozarella Ashbadger is the latest revolution in web 
-browsing! Go back and forward! Print! Save files! Get help! 
-(you’ll need it). Any similarity to other browsers is entirely 
-coincidental.
-
-![Browser tabbed](screenshot-browser-tabbed.jpg)
-
-> If you think this app is neat and want to learn more about
-PyQt in general, take a look at my [free PyQt tutorials](https://www.learnpyqt.com)
-which cover everything you need to know to start building your own applications with PyQt.
+LineBrowser is a Fast and Simple lightweight Browser designed 
+to target linux systems. Especially single-board computing systems such as
+the Raspberry Pi. This browser is written in python using PyQt5.
 
 ## Code notes
 
@@ -23,6 +16,11 @@ window, and to ensure the UI events are dispatched to the correct web view.
 This is achieved by using intermediate slots which filter events, and by
 adding signal redirection (using lamba functions to keep it short).
 
+### To do
+- Currently nothing
+
+Request for things in the issues tab!
+
 ## Other licenses
 
-Icons used in the application are by [Yusuke Kamiyaman](http://p.yusukekamiyamane.com/).
+Icons used are created by [Yusuke Kamiyaman](http://p.yusukekamiyamane.com/).
